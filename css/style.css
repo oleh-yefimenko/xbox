@@ -134,3 +134,9 @@ a {
 		text-align: center;
 	}
 }
+
+@media (max-width: 950px) {
+	.container {
+		display: block;
+	}
+}
