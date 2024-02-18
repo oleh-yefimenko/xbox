@@ -1,0 +1,71 @@
+.games {
+	padding: 70px 0 110px 0;
+	background: url(../images/games-bg.jpg) no-repeat center / cover;
+}
+
+.games-title {
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+	color: #8dd83d;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.games-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 95px;
+}
+
+.card-image-games-01 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/games-card-01.jpg) no-repeat center / cover;
+}
+
+.card-image-games-02 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/games-card-02.jpg) no-repeat center / cover;
+}
+
+.card-image-games-03 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/games-card-03.jpg) no-repeat center / cover;
+}
+
+.card-image-games-04 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/games-card-04.jpg) no-repeat center / cover;
+}
+
+.games-button {
+	display: block;
+	margin: 0 auto;
+	padding: 16px 20px;
+	max-width: 210px;
+	border-radius: 4px;
+	background: #373a3c;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 100%;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.games-button:hover {
+	background: #8dd83d;
+}
+
+@media (max-width: 670px) {
+	.games-title {
+		font-size: 30px;
+	}
+}

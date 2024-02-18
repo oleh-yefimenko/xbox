@@ -1,0 +1,115 @@
+.best {
+	min-height: 100vh;
+	padding: 60px 0 160px 0;
+	background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.best-logo {
+	display: block;
+	margin: 0 auto;
+	width: 64px;
+	margin-bottom: 16px;
+}
+
+.best-title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 48px;
+	color: #fff;
+}
+
+.best-subtitle {
+	text-align: center;
+	font-weight: 400;
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.best-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 0 300px;
+	background: #ffffff;
+	border: 1px solid #8dd83d;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.card-image-best-01 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/best-card-01.jpg) no-repeat center / cover;
+}
+
+.card-image-best-02 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/best-card-02.jpg) no-repeat center / cover;
+}
+
+.card-image-best-03 {
+	height: 180px;
+	border-radius: 5px;
+	background: url(../images/best-card-03.jpg) no-repeat center / cover;
+}
+
+.card-content {
+	padding: 20px;
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 18px;
+	color: #435766;
+	margin-bottom: 5px;
+}
+
+.card-desc {
+	font-weight: 400;
+	font-size: 20px;
+	color: #435766;
+	margin-bottom: 30px;
+}
+
+.card-br {
+	display: block;
+}
+
+.card-button {
+	display: block;
+	border-radius: 4px;
+	background: #8dd83d;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 131%;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px 10px;
+	transition: all 0.3s;
+}
+
+.card-button:hover {
+	background: #373a3c;
+}
+
+@media (max-width: 670px) {
+	.best-title {
+		font-size: 30px;
+	}
+
+	.best-subtitle {
+		font-size: 25px;
+	}
+}

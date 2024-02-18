@@ -1,0 +1,72 @@
+.lab {
+	padding: 114px 0 142px 0;
+	background: url(../images/lab-bg.jpg) no-repeat center / cover fixed;
+}
+
+.lab-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.lab-content {
+	max-width: 535px;
+}
+
+.lab-title {
+	font-weight: 400;
+	font-size: 48px;
+	color: #fff;
+}
+
+.lab-desc {
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.lab-row {
+	display: flex;
+	gap: 13px;
+}
+
+.lab-button {
+	padding: 20px;
+	min-width: 205px;
+	border-radius: 4px;
+	background: #8dd83d;
+	font-size: 16px;
+	line-height: 131%;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.lab-button:hover {
+	background: #373a3c;
+}
+
+@media (max-width: 670px) {
+	.lab {
+		text-align: center;
+	}
+
+	.lab-title {
+		font-size: 30px;
+	}
+
+	.lab-desc {
+		font-size: 18px;
+	}
+
+	.lab-row {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.lab-button {
+		max-width: 90%;
+	}
+}
